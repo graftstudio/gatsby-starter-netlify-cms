@@ -1,9 +1,12 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: 'Hi, I''m Di Gates'
 image: /img/hero.png
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: 'Hi, I''m'
+subheading: >-
+  I run a collaboration consultancy called Stick Theory, helping clients big and
+  small to connect with customers, build their brands and thrive during periods
+  of change.
 mainpitch:
   title: Why Kaldi
   description: >
