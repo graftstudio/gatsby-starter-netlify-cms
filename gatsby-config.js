@@ -36,6 +36,17 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-plugin-prefetch-google-fonts`,
+            options: {
+              fonts: [
+                {
+                  family: `Montserrat`,
+                  variants: [`400`, `500`, `600`]
+                },
+              ],
+            },
+          },
+          {
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',

@@ -10,6 +10,8 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+$secondary-nav: 'Montserrat', sans-serif;
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -31,7 +33,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 90vw
+  height: 400px
   position: relative
   left: 50%
   right: 50%
@@ -44,7 +46,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 800px
     background-size: cover
     background-position: bottom
     display: flex
@@ -138,3 +140,32 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+// Overrides
+
+.navbar-brand img 
+  height: 23px;
+  width: 226px;
+  max-height: unset;
+
+.navbar-brand a.navbar-item 
+  padding: 0
+
+.navbar,
+.navbar > .container,
+.navbar-brand 
+  min-height: unset
+
+.navbar #navMenu 
+  font-family: $secondary-nav;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  
+.navbar-start 
+  width: 89%;
+  justify-content: center
+
+.navbar #navMenu .navbar-item
+  padding: 1.5rem 1rem;
