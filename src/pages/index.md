@@ -3,6 +3,7 @@ templateKey: index-page
 title: 'Hi, I''m Di Gates'
 image: /img/hero.png
 heading: 'Hi, I''m'
+avatar: /img/avatar.png
 subheading: >-
   I run a collaboration consultancy called Stick Theory, helping clients big and
   small to connect with customers, build their brands and thrive during periods
